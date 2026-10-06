@@ -228,11 +228,7 @@ Email Subscriber
 
 # 9. Testing
 
-Testing was performed to verify that the monitoring and alerting configuration worked as expected.
-
-## 9.1 Normal State
-
-Initially, the EC2 instance was operating normally.
+Testing was performed to verify that the monitoring and alerting configuration worked as expected. Initially, the EC2 instance was operating normally.
 
 ![Normal CPU](images/LoadAverage.png)
 
@@ -271,11 +267,12 @@ SNS notification published
         v
 Email received
 ```
+
 ![High CPU](images/HighCPULoad.png)
 
 ---
 
-# 12. SNS Email Notification Test
+# 11. SNS Email Notification Test
 
 After the CloudWatch alarm entered the ALARM state, the configured SNS topic sent an email notification to the subscribed email address.
 
@@ -285,7 +282,7 @@ This confirmed the complete alerting workflow.
 
 ---
 
-# 13. Final End-to-End Flow
+# 12. Final End-to-End Flow
 
 The complete project workflow is:
 
@@ -331,7 +328,7 @@ The complete project workflow is:
 
 ---
 
-# 14. Conclusion
+# 13. Conclusion
 
 This project demonstrates an AWS-based monitoring and alerting solution for an EC2 instance.
 
